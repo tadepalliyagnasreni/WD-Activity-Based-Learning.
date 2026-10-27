@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Student Dashboard</title>
+    <link rel="stylesheet" href="file.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+        <h2>🎓 CampusHub</h2>
+        <p class="menu-title">STUDENT MENU</p>
+        <a href="#home">🏠 Dashboard</a>
+        <a href="#subjects">📚 My Subjects</a>
+        <a href="#attendance">📊 Attendance</a>
+        <a href="#results">📝 Semester Results</a>
+        <a href="#exams">📅 Exam Schedule</a>
+        <a href="#announcements">📢 Announcements</a>
+        <p class="sidebar-note">Learn today, lead tomorrow!</p>
+    </aside>
+
+    <main class="main-content" id="home">
+
+        <header class="topbar">
+            <div>
+                <h1>Student Dashboard</h1>
+                <p>Welcome back! Here's your academic overview.</p>
+            </div>
+            <div class="profile-icon">ST</div>
+        </header>
+
+        <section class="student-card">
+            <div class="avatar">ST</div>
+            <div>
+                <h2>Student Name</h2>
+                <p>B.Tech - First Year | CSM</p>
+                <p>Roll Number: 26CSM001</p>
+                <p>Academic Year: 2026–2027</p>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <p>Overall Attendance</p>
+                <h2>85%</h2>
+                <span>Good progress</span>
+            </div>
+            <div class="stat-card">
+                <p>Semester GPA</p>
+                <h2>8.6</h2>
+                <span>Semester 1</span>
+            </div>
+            <div class="stat-card">
+                <p>Total Subjects</p>
+                <h2>6</h2>
+                <span>Current semester</span>
+            </div>
+            <div class="stat-card">
+                <p>Upcoming Exams</p>
+                <h2>3</h2>
+                <span>Check schedule</span>
+            </div>
+        </section>
+
+        <section class="panel" id="attendance">
+            <h2>Attendance Overview</h2>
+
+            <p>Mathematics <span>90%</span></p>
+            <div class="progress"><div class="fill" style="width:90%"></div></div>
+
+            <p>Python Programming <span>85%</span></p>
+            <div class="progress"><div class="fill" style="width:85%"></div></div>
+
+            <p>Physics <span>78%</span></p>
+            <div class="progress"><div class="fill" style="width:78%"></div></div>
+
+            <p>English <span>88%</span></p>
+            <div class="progress"><div class="fill" style="width:88%"></div></div>
+        </section>
+
+        <section class="panel" id="subjects">
+            <h2>Subject Information</h2>
+            <table>
+                <tr><th>Subject</th><th>Code</th><th>Faculty</th></tr>
+                <tr><td>Mathematics</td><td>MA101</td><td>Faculty A</td></tr>
+                <tr><td>Python Programming</td><td>CS101</td><td>Faculty B</td></tr>
+                <tr><td>Physics</td><td>PH101</td><td>Faculty C</td></tr>
+                <tr><td>English</td><td>EN101</td><td>Faculty D</td></tr>
+            </table>
+        </section>
+
+        <section class="panel" id="results">
+            <h2>Semester Results</h2>
+            <table>
+                <tr><th>Subject</th><th>Marks / 100</th><th>Grade</th></tr>
+                <tr><td>Mathematics</td><td>88</td><td>A</td></tr>
+                <tr><td>Python Programming</td><td>92</td><td>A+</td></tr>
+                <tr><td>Physics</td><td>81</td><td>A</td></tr>
+                <tr><td>English</td><td>85</td><td>A</td></tr>
+            </table>
+            <p class="note">Sample results for demonstration only.</p>
+        </section>
+
+        <section class="panel" id="exams">
+            <h2>Examination Schedule</h2>
+            <table>
+                <tr><th>Subject</th><th>Date</th><th>Time</th></tr>
+                <tr><td>Mathematics</td><td>10 Dec 2026</td><td>9 AM</td></tr>
+                <tr><td>Python</td><td>12 Dec 2026</td><td>9 AM</td></tr>
+                <tr><td>Physics</td><td>15 Dec 2026</td><td>9 AM</td></tr>
+            </table>
+            <p class="note">Sample dates only. Replace with your official timetable.</p>
+        </section>
+
+        <section class="panel" id="announcements">
+            <h2>Latest Announcements</h2>
+            <div class="announcement">
+                <strong>📢 Assignment Reminder</strong>
+                <p>Submit your programming assignment before the deadline.</p>
+            </div>
+            <div class="announcement">
+                <strong>📅 Examination Update</strong>
+                <p>Check the official timetable for examination details.</p>
+            </div>
+            <div class="announcement">
+                <strong>💻 Coding Practice</strong>
+                <p>Practice Python programs regularly to improve your skills.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 CampusHub | Student Academic Dashboard</p>
+        </footer>
+
+    </main>
+</div>
+
+</body>
+</html>
