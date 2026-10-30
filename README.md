@@ -4,10 +4,10 @@
 
 ## Student Details
 
--Name:T.Yagna sreni
-- *Roll Number:* 26001247
-- *Branch:* CSM
-- *Section:* 06
+- Name:T.Yagna sreni
+- Roll Number: 26001247
+- Branch:CSM
+- Section: 06
 
 ## Selected Case Studies
 
