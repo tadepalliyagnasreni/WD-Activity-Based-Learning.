@@ -4,7 +4,7 @@
 
 ## Student Details
 
--**Name:**T.Yagna sreni
+-Name:T.Yagna sreni
 - *Roll Number:* 26001247
 - *Branch:* CSM
 - *Section:* 06
